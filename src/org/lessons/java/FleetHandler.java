@@ -14,6 +14,9 @@ public class FleetHandler {
     /* EXERCISE FUNCTIONS */
 
     public boolean addVehicle(Vehicle vehicle) {
+        for (Vehicle v : vehicleList)
+            if (vehicle.getPlate().equals(v.getPlate()))
+                throw new IllegalArgumentException("Error: the vehicle entered is already present in the list.");
         return vehicleList.add(vehicle);
     }
 
