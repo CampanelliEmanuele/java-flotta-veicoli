@@ -8,13 +8,13 @@ public class Car extends Vehicle {
         setDoors(doors);
     }
 
+    /* EXERCISE FUNCTIONS */
+
     @Override
     public String toString() {
         return "Car{" +
                 "doors=" + doors +
-                ", plate='" + plate + '\'' +
-                ", registrationYear=" + registrationYear +
-                '}';
+                "} " + super.toString();
     }
 
     /* VALIDATORS */

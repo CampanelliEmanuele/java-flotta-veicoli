@@ -8,12 +8,12 @@ public class Motorbike extends Vehicle {
         this.hasEasel = hasEasel;
     }
 
+    /* EXERCISE FUNCTIONS */
+
     @Override
     public String toString() {
         return "Motorbike{" +
                 "hasEasel=" + hasEasel +
-                ", plate='" + plate + '\'' +
-                ", registrationYear=" + registrationYear +
-                '}';
+                "} " + super.toString();
     }
 }

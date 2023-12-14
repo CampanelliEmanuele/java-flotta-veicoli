@@ -11,6 +11,8 @@ public abstract class Vehicle {
         setRegistrationYear(registrationYear);
     }
 
+    /* EXERCISE FUNCTIONS */
+
     @Override
     public String toString() {
         return "Vehicle{" +
